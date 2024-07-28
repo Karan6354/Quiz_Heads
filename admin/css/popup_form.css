@@ -1,0 +1,426 @@
+body {
+  background-color: #222;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.form_group {
+  position: relative;
+  padding: 15px 30px 0 30px;
+  margin-top: 10px;
+  width: 100%;
+}
+.form_field {
+  font-family: Roboto;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form_field::placeholder {
+  color: transparent;
+}
+.form_label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form_field:placeholder-shown ~ .form_label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form_field:placeholder-shown ~ .form_label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form_field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff0062, #00ffff);
+  border-image-slice: 1;
+}
+
+.form_field:hover {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff0062, #00ffff);
+  border-image-slice: 1;
+}
+
+.form_field:focus ~ .form_label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #2afadf;
+  font-weight: 700;
+}
+.form_field:hover ~ .form_label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #2afadf;
+  font-weight: 700;
+}
+/*buttons*/
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #00051d;
+}
+
+.nb {
+  font-size: 1rem;
+  text-decoration: none;
+  border: 0.2em solid #3f5470;
+  color: #3f5470;
+  padding: 0.3em 1em;
+  border-radius: 0.2em;
+
+  text-shadow: 0 0 0.2em rgba(225, 225, 255, 0.363), 0 0 1em #3f5470;
+
+  box-shadow: inset 0 0 0.2em 0 #3f5470, 0 0 0.4em #3f5470;
+}
+.nb:hover {
+  color: aliceblue;
+}
+/*textbox 1*/
+.form_group1 {
+  position: relative;
+  padding: 15px 30px 0 30px;
+  margin-top: 10px;
+  width: 100%;
+}
+.form_field1 {
+  font-family: Roboto;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form_field1::placeholder {
+  color: transparent;
+}
+.form_label1 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form_field1:placeholder-shown ~ .form_label1 {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form_field1:placeholder-shown ~ .form_label1 {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form_field1:focus:hover {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff0062, #00ffff);
+  border-image-slice: 1;
+}
+
+.form_field1:hover {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff0062, #00ffff);
+  border-image-slice: 1;
+}
+
+.form_field1:focus ~ .form_label1 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #2afadf;
+  font-weight: 700;
+}
+.form_field1:hover ~ .form_label1 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #2afadf;
+  font-weight: 700;
+}
+/*textbox 2*/
+.form_group2 {
+  position: relative;
+  padding: 15px 30px 0 30px;
+  margin-top: 10px;
+  width: 100%;
+}
+.form_field2 {
+  font-family: Roboto;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form_field2::placeholder {
+  color: transparent;
+}
+.form_label2 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form_field2:placeholder-shown ~ .form_label2 {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form_field2:placeholder-shown ~ .form_label2 {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form_field2:focus:hover {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff0062, #00ffff);
+  border-image-slice: 1;
+}
+
+.form_field2:hover {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff0062, #00ffff);
+  border-image-slice: 1;
+}
+
+.form_field2:focus ~ .form_label2 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #2afadf;
+  font-weight: 700;
+}
+.form_field2:hover ~ .form_label2 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #2afadf;
+  font-weight: 700;
+}
+/*textbox 3*/
+.form_group3 {
+  position: relative;
+  padding: 15px 30px 0 30px;
+  margin-top: 10px;
+  width: 100%;
+}
+.form_field3 {
+  font-family: Roboto;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form_field3::placeholder {
+  color: transparent;
+}
+.form_label3 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form_field3:placeholder-shown ~ .form_label3 {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form_field3:placeholder-shown ~ .form_label3 {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form_field3:focus:hover {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff0062, #00ffff);
+  border-image-slice: 1;
+}
+
+.form_field3:hover {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff0062, #00ffff);
+  border-image-slice: 1;
+}
+
+.form_field3:focus ~ .form_label3 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #2afadf;
+  font-weight: 700;
+}
+.form_field3:hover ~ .form_label3 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #2afadf;
+  font-weight: 700;
+}
+/*Textbox 4*/
+.form_group4 {
+  position: relative;
+  padding: 15px 30px 0 30px;
+  margin-top: 10px;
+  width: 100%;
+}
+.form_field4 {
+  font-family: Roboto;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form_field4::placeholder {
+  color: transparent;
+}
+.form_label4 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form_field4:placeholder-shown ~ .form_label4 {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form_field4:placeholder-shown ~ .form_label4 {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+.form_field4:focus:hover {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff0062, #00ffff);
+  border-image-slice: 1;
+}
+
+.form_field4:hover {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff0062, #00ffff);
+  border-image-slice: 1;
+}
+
+.form_field4:focus ~ .form_label4 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #2afadf;
+  font-weight: 700;
+}
+.form_field4:hover ~ .form_label4 {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #2afadf;
+  font-weight: 700;
+}
+
+/*select option*/
+.answer {
+  background-color: #3f5470;
+  border-radius: 25em;
+  border-color: black;
+  width: 87%;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  margin: 3% 30px 0 30px;
+}
+
+.caret-icon {
+  margin-left: 20px;
+}
